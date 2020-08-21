@@ -1,0 +1,315 @@
+﻿  CelesteMoveset.cpp
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(17): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): error C2065: “fld”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): error C2146: 语法错误: 缺少“;”(在标识符“DWORD”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): error C2131: 表达式的计算结果不是常数
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 因读取超过生命周期的变量而失败
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 请参见“radians”的用法
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2131: 表达式的计算结果不是常数
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 因读取超过生命周期的变量而失败
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 请参见“radians”的用法
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“fsincos”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(19): error C2065: “fsincos”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2065: “mov”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“edx”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2065: “edx”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2275: “DWORD”: 将此类型用作表达式非法
+  d:\windows kits\10\include\10.0.17763.0\shared\minwindef.h(156): note: 参见“DWORD”的声明
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“PTR”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2065: “mov”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2065: “eax”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2275: “DWORD”: 将此类型用作表达式非法
+  d:\windows kits\10\include\10.0.17763.0\shared\minwindef.h(156): note: 参见“DWORD”的声明
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2146: 语法错误: 缺少“;”(在标识符“PTR”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2146: 语法错误: 缺少“;”(在标识符“fstp”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2065: “fstp”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2146: 语法错误: 缺少“;”(在标识符“DWORD”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2065: “edx”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2369: “PTR”: 重定义；不同的下标
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 参见“PTR”的声明
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2146: 语法错误: 缺少“;”(在标识符“fstp”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2065: “fstp”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2146: 语法错误: 缺少“;”(在标识符“DWORD”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2065: “eax”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(26): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2369: “PTR”: 重定义；不同的下标
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 参见“PTR”的声明
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(36): error C2296: “*”: 非法，左操作数包含“float *”类型
+c:\users\administrator\desktop\smsm\src\celestemoveset.hpp(39): warning C4305: “初始化”: 从“double”到“float”截断
+c:\users\administrator\desktop\smsm\src\celestemoveset.cpp(30): warning C4305: “初始化”: 从“double”到“float”截断
+c:\users\administrator\desktop\smsm\src\celestemoveset.cpp(53): warning C4305: “=”: 从“double”到“float”截断
+c:\users\administrator\desktop\smsm\src\celestemoveset.cpp(76): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+c:\users\administrator\desktop\smsm\src\celestemoveset.cpp(80): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+c:\users\administrator\desktop\smsm\src\celestemoveset.cpp(82): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+c:\users\administrator\desktop\smsm\src\celestemoveset.cpp(262): warning C4305: “参数”: 从“double”到“float”截断
+c:\users\administrator\desktop\smsm\src\celestemoveset.cpp(262): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+c:\users\administrator\desktop\smsm\src\celestemoveset.cpp(389): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\administrator\desktop\smsm\src\celestemoveset.cpp(430): warning C4305: “参数”: 从“double”到“float”截断
+c:\users\administrator\desktop\smsm\src\celestemoveset.cpp(503): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\administrator\desktop\smsm\src\celestemoveset.cpp(548): warning C4305: “=”: 从“double”到“float”截断
+  Hud.cpp
+c:\users\administrator\desktop\smsm\src\hud\hud.hpp(3): fatal error C1083: 无法打开包括文件: “Utils/SDK.hpp”: No such file or directory
+  Server.cpp
+c:\users\administrator\desktop\smsm\src\modules\server.hpp(2): fatal error C1083: 无法打开包括文件: “Interface.hpp”: No such file or directory
+  Surface.cpp
+c:\users\administrator\desktop\smsm\src\modules\surface.hpp(6): fatal error C1083: 无法打开包括文件: “Interface.hpp”: No such file or directory
+  VGui.cpp
+c:\users\administrator\desktop\smsm\src\modules\vgui.hpp(6): fatal error C1083: 无法打开包括文件: “Interface.hpp”: No such file or directory
+  VScript.cpp
+c:\users\administrator\desktop\smsm\src\modules\vscript.hpp(2): fatal error C1083: 无法打开包括文件: “Interface.hpp”: No such file or directory
+  SMSM.cpp
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(17): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): error C2065: “fld”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): error C2146: 语法错误: 缺少“;”(在标识符“DWORD”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): error C2131: 表达式的计算结果不是常数
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 因读取超过生命周期的变量而失败
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 请参见“radians”的用法
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2131: 表达式的计算结果不是常数
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 因读取超过生命周期的变量而失败
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 请参见“radians”的用法
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“fsincos”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(19): error C2065: “fsincos”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2065: “mov”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“edx”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2065: “edx”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2275: “DWORD”: 将此类型用作表达式非法
+  d:\windows kits\10\include\10.0.17763.0\shared\minwindef.h(156): note: 参见“DWORD”的声明
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“PTR”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2065: “mov”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2065: “eax”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2275: “DWORD”: 将此类型用作表达式非法
+  d:\windows kits\10\include\10.0.17763.0\shared\minwindef.h(156): note: 参见“DWORD”的声明
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2146: 语法错误: 缺少“;”(在标识符“PTR”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2146: 语法错误: 缺少“;”(在标识符“fstp”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2065: “fstp”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2146: 语法错误: 缺少“;”(在标识符“DWORD”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2065: “edx”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2369: “PTR”: 重定义；不同的下标
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 参见“PTR”的声明
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2146: 语法错误: 缺少“;”(在标识符“fstp”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2065: “fstp”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2146: 语法错误: 缺少“;”(在标识符“DWORD”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2065: “eax”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(26): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2369: “PTR”: 重定义；不同的下标
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 参见“PTR”的声明
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(36): error C2296: “*”: 非法，左操作数包含“float *”类型
+  Cheats.cpp
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(17): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): error C2065: “fld”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): error C2146: 语法错误: 缺少“;”(在标识符“DWORD”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): error C2131: 表达式的计算结果不是常数
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 因读取超过生命周期的变量而失败
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 请参见“radians”的用法
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2131: 表达式的计算结果不是常数
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 因读取超过生命周期的变量而失败
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 请参见“radians”的用法
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“fsincos”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(19): error C2065: “fsincos”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2065: “mov”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“edx”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2065: “edx”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2275: “DWORD”: 将此类型用作表达式非法
+  d:\windows kits\10\include\10.0.17763.0\shared\minwindef.h(156): note: 参见“DWORD”的声明
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“PTR”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2065: “mov”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2065: “eax”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2275: “DWORD”: 将此类型用作表达式非法
+  d:\windows kits\10\include\10.0.17763.0\shared\minwindef.h(156): note: 参见“DWORD”的声明
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2146: 语法错误: 缺少“;”(在标识符“PTR”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2146: 语法错误: 缺少“;”(在标识符“fstp”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2065: “fstp”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2146: 语法错误: 缺少“;”(在标识符“DWORD”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2065: “edx”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2369: “PTR”: 重定义；不同的下标
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 参见“PTR”的声明
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2146: 语法错误: 缺少“;”(在标识符“fstp”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2065: “fstp”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2146: 语法错误: 缺少“;”(在标识符“DWORD”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2065: “eax”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(26): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2369: “PTR”: 重定义；不同的下标
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 参见“PTR”的声明
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(36): error C2296: “*”: 非法，左操作数包含“float *”类型
+c:\users\administrator\desktop\smsm\src\cheats.cpp(76): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  Command.cpp
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(17): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): error C2065: “fld”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): error C2146: 语法错误: 缺少“;”(在标识符“DWORD”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): error C2131: 表达式的计算结果不是常数
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 因读取超过生命周期的变量而失败
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 请参见“radians”的用法
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2131: 表达式的计算结果不是常数
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 因读取超过生命周期的变量而失败
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 请参见“radians”的用法
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“fsincos”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(19): error C2065: “fsincos”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2065: “mov”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“edx”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2065: “edx”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2275: “DWORD”: 将此类型用作表达式非法
+  d:\windows kits\10\include\10.0.17763.0\shared\minwindef.h(156): note: 参见“DWORD”的声明
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“PTR”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2065: “mov”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2065: “eax”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2275: “DWORD”: 将此类型用作表达式非法
+  d:\windows kits\10\include\10.0.17763.0\shared\minwindef.h(156): note: 参见“DWORD”的声明
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2146: 语法错误: 缺少“;”(在标识符“PTR”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2146: 语法错误: 缺少“;”(在标识符“fstp”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2065: “fstp”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2146: 语法错误: 缺少“;”(在标识符“DWORD”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2065: “edx”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2369: “PTR”: 重定义；不同的下标
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 参见“PTR”的声明
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2146: 语法错误: 缺少“;”(在标识符“fstp”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2065: “fstp”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2146: 语法错误: 缺少“;”(在标识符“DWORD”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2065: “eax”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(26): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2369: “PTR”: 重定义；不同的下标
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 参见“PTR”的声明
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(36): error C2296: “*”: 非法，左操作数包含“float *”类型
+  Game.cpp
+  Interface.cpp
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(17): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): error C2065: “fld”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): error C2146: 语法错误: 缺少“;”(在标识符“DWORD”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): error C2131: 表达式的计算结果不是常数
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 因读取超过生命周期的变量而失败
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 请参见“radians”的用法
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2131: 表达式的计算结果不是常数
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 因读取超过生命周期的变量而失败
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 请参见“radians”的用法
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“fsincos”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(19): error C2065: “fsincos”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2065: “mov”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“edx”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2065: “edx”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2275: “DWORD”: 将此类型用作表达式非法
+  d:\windows kits\10\include\10.0.17763.0\shared\minwindef.h(156): note: 参见“DWORD”的声明
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“PTR”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2065: “mov”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2065: “eax”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2275: “DWORD”: 将此类型用作表达式非法
+  d:\windows kits\10\include\10.0.17763.0\shared\minwindef.h(156): note: 参见“DWORD”的声明
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2146: 语法错误: 缺少“;”(在标识符“PTR”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2146: 语法错误: 缺少“;”(在标识符“fstp”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2065: “fstp”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2146: 语法错误: 缺少“;”(在标识符“DWORD”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2065: “edx”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2369: “PTR”: 重定义；不同的下标
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 参见“PTR”的声明
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2146: 语法错误: 缺少“;”(在标识符“fstp”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2065: “fstp”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2146: 语法错误: 缺少“;”(在标识符“DWORD”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2065: “eax”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(26): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2369: “PTR”: 重定义；不同的下标
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 参见“PTR”的声明
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(36): error C2296: “*”: 非法，左操作数包含“float *”类型
+  Client.cpp
+c:\users\administrator\desktop\smsm\src\modules\client.hpp(2): fatal error C1083: 无法打开包括文件: “Interface.hpp”: No such file or directory
+  Console.cpp
+c:\users\administrator\desktop\smsm\src\modules\console.hpp(4): fatal error C1083: 无法打开包括文件: “Utils.hpp”: No such file or directory
+  Engine.cpp
+c:\users\administrator\desktop\smsm\src\modules\engine.hpp(3): fatal error C1083: 无法打开包括文件: “Utils.hpp”: No such file or directory
+  Module.cpp
+  Tier1.cpp
+c:\users\administrator\desktop\smsm\src\modules\tier1.hpp(2): fatal error C1083: 无法打开包括文件: “Interface.hpp”: No such file or directory
+  Offsets.cpp
+  Plugin.cpp
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(17): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): error C2065: “fld”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): error C2146: 语法错误: 缺少“;”(在标识符“DWORD”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): error C2065: “DWORD”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): error C2146: 语法错误: 缺少“;”(在标识符“PTR”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): error C2065: “PTR”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“fsincos”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(19): error C2065: “fsincos”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2065: “mov”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“edx”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2065: “edx”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2065: “DWORD”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“PTR”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2065: “PTR”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2065: “mov”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2065: “eax”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2065: “DWORD”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2146: 语法错误: 缺少“;”(在标识符“PTR”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2065: “PTR”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2146: 语法错误: 缺少“;”(在标识符“fstp”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2065: “fstp”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2146: 语法错误: 缺少“;”(在标识符“DWORD”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2065: “DWORD”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2146: 语法错误: 缺少“;”(在标识符“PTR”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2065: “PTR”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2065: “edx”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2146: 语法错误: 缺少“;”(在标识符“fstp”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2065: “fstp”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2146: 语法错误: 缺少“;”(在标识符“DWORD”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2065: “DWORD”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2146: 语法错误: 缺少“;”(在标识符“PTR”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2065: “PTR”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2065: “eax”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(26): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+  Portal2.cpp
+  Variable.cpp
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(17): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): error C2065: “fld”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): error C2146: 语法错误: 缺少“;”(在标识符“DWORD”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): error C2131: 表达式的计算结果不是常数
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 因读取超过生命周期的变量而失败
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 请参见“radians”的用法
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2131: 表达式的计算结果不是常数
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 因读取超过生命周期的变量而失败
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 请参见“radians”的用法
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“fsincos”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(19): error C2065: “fsincos”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2065: “mov”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“edx”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2065: “edx”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2275: “DWORD”: 将此类型用作表达式非法
+  d:\windows kits\10\include\10.0.17763.0\shared\minwindef.h(156): note: 参见“DWORD”的声明
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(21): error C2146: 语法错误: 缺少“;”(在标识符“PTR”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2065: “mov”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2065: “eax”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2275: “DWORD”: 将此类型用作表达式非法
+  d:\windows kits\10\include\10.0.17763.0\shared\minwindef.h(156): note: 参见“DWORD”的声明
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(22): error C2146: 语法错误: 缺少“;”(在标识符“PTR”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2146: 语法错误: 缺少“;”(在标识符“fstp”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2065: “fstp”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2146: 语法错误: 缺少“;”(在标识符“DWORD”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2065: “edx”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(24): error C2369: “PTR”: 重定义；不同的下标
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 参见“PTR”的声明
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2146: 语法错误: 缺少“;”(在标识符“fstp”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2065: “fstp”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2146: 语法错误: 缺少“;”(在标识符“DWORD”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2065: “eax”: 未声明的标识符
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(26): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(25): error C2369: “PTR”: 重定义；不同的下标
+  c:\users\administrator\desktop\smsm\src\utils\math.hpp(18): note: 参见“PTR”的声明
+c:\users\administrator\desktop\smsm\src\utils\math.hpp(36): error C2296: “*”: 非法，左操作数包含“float *”类型
+c:\users\administrator\desktop\smsm\src\variable.cpp(63): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...

@@ -1,0 +1,130 @@
+传送门2插件制作流程
+
+传送门2的插件分为2种 
+DLL 和 VPK插件
+chaos 插件只有源码 没有dll文件
+smsm 插件 速通mod 自带的插件
+dll插件的制作 
+先下载源码 推荐 chaos和smsm的源码
+工具 VS2015  VS2017 V2019 选中一款IDE 安装
+VS的下载需要微软账户 先注册Github 然后进入https://my.visualstudio.com/Downloads
+网站 用Github 登录
+
+搜索VS2015 或者 17 19
+本机安装的17 社区版
+安装 负载和组件 负载选择 桌面开发 扩展开发
+组件自动选择 然后勾选MFC 
+需要安装的文件大小大概5~6G
+
+修改smsm工程文件
+smsm工程是在chaos工程文件进行修改的
+复制src文件夹
+project文件里面的smsm替换想要改的工程名
+fliter 文件是工程文件关系
+删除不必要的文件
+CelesteMoveset.hpp 和CelesteMoveset.cpp是速通MOD Celeste模式的源文件
+可以删除
+注意 工程文件可能包含其他指令
+比如copy.bat 作者包含的指令 会将输出的dll拷贝到传送门2的bin文件目录下 
+如果编译的时候 编译机的传送门2目录与其不一致会出错 
+解决方法 修改bat文件 2删除工程文件相关代码 三行代码
+本机的工程文件删除了 bat文件的相关代码 不需要修改bat文件
+编译后的dll文件需手动放到传送门2bin目录
+
+工程文件修改后 添加自定义的指令 参考 smsm相关源码 和 sourceautorecod 相关源码
+本机做了一个自动连跳的插件 
+在smsm工程文件的基础上修改而成 从sourceautorecod 取得连跳代码
+VS的相关操作不做演示 
+编译生成的dll 在bin文件下
+在游戏console 输入 plugin_load autobhop
+按住空格就可以自动连跳
+
+ VPK插件 
+ VPK 文件 作为插件使用 
+ 包含脚本文件
+ 不能使用作弊的指令
+ 只能辅助用
+
+ 制作方式与枪皮文件 皮肤文件一样  
+ 以地图插件文件 为例
+ 在工坊图订阅的系列地图文件 不能自动跳图
+ 用VPK 打包地图 加入脚本 运行第一张地图 完成后自动跳图
+ 注：自动跳图功能对应性强 也可以作为第三MOD的跳图插件实现方式
+
+ 1 将系列地图文件 放置maps文件夹
+ 2地图可以使官方关卡制作工具和BEE MOD 制作的图 
+ 3 hammer 制作的地图 出最后一张地图外 其他图必须包含一个point_command 实体
+ 如果没有，而且你不是地图制作者：利用概述文件或者bsptovmf工具反编译地图添加"point_clientcommand" 实体
+ 4脚本文件
+
+ 地图文件夹中
+ 与地图文件同名_commentary.txt的文件是概述文件
+ 所有的概述文件做一件事情 在地图启动的时候添加一个"point_clientcommand" 实体
+ "point_clientcommand"实体是不可见的 所有不用分配坐标和角度
+
+ wust1 和 wust5 都没有"point_clientcommand"实体
+ 这些地图都是hammer 制作的
+ 官方地图编辑器 的图都会有一个 名为@command的实体
+
+ 下一步 脚本文件的编写
+ E:\pak02_dir\scripts\vscripts\
+ mapspawn （这个是单人 双人 都会运行的脚本文件）
+ 除了打印一行之外 不做任何事 可以hook自定义脚本
+
+ 或者D:\Program Files\Steam\steamapps\common\Portal 2\portal2\scripts\vscripts\transitions
+ sp_transition_list（速通MOD 使用的hook文件）
+ sp_transition_list是官方用来实现自动换图功能的脚本文件
+速通MOD 重写了这个文件 然后hook speedrun.nut
+
+ 用这两个脚本文件hook你的脚本代码
+
+ 自定义换图插件 是利用游戏地图point_client_command
+ 实体（也可以是command实体 ）来实现换图工能
+ 换图的时候 调用command实体 I/O 事件
+ 发送command  changelevel 下一张地图
+
+ @relay_pti_level_end
+ 是一个工坊发布的图 必须带的一个auto_logic_relay实体
+
+ 如果一个不是发布的地图 文件
+ 找到一个一定会被触发的实体（trigger类的 单次触发的或者多次的都可以）
+ 触发后 为command添加一个指令输出事件
+ 这个指令就是换图
+ 所触发的trigger 必须是完成地图关卡后
+ @relay_pti_level_end 是工坊图地图完成后 触发的
+ 一般都放置在出口的地方 触发后会调用投票界面
+ （VPK的插件则不会调用该界面 估计没有这个界面的地址接口）刚好就只做了
+ 换图的功能
+
+ 最后一张图不需要换图
+
+ 新建cfg文件夹 创建autoexec.cfg
+ 输入一行指令  commentary 1
+保存
+如果不建立 这个文件 可以手动在控制台输入 commentary 1
+ent_fire @relay_pti_level_end trigger
+触发@relay_pti_level_end trigger实体 就会自动换图
+不演示过关过程 直接人物触发@relay_pti_level_end trigger
+电梯的trigger就是@relay_pti_level_end trigger
+
+打包VPK 必须有_master.cahe 不然会没有声音
+matrial 和 sound 文件夹为空 gameinfo 可以删除 或者保留
+cfg maps scripts 文件包含在一个文件夹下
+文件夹可以任意名字：打包VPK 放置在Portal  2/bin 目录下 控制台输入add_path 不好意思忘了
+文件夹 可以pak02_dir 打包VPK 放置在 portal2 or portal2_dlcX文件夹下
+文件夹 可以pak01 打包VPK 新建 portal2_dlcx(x是数字 原来最大的数字加1)
+如果这台电脑要装这个插件 就必须是portal2_dlc13
+我将制作完成的VPK 放置portal2_dlc12中
+
+VPK 打包方式
+我已经运行了插件
+map wust1(第一张地图)
+必须手动启动 而且必须针对特定的地图
+所以这个换图插件针对性很强
+但是也可以做一个模板 修改maps文件的概述的文件名称就行
+接着修改脚本文件 然后打包
+
+利用指令触发 出口是事件 演示自动换图功能
+mapcommand 是概述文件建立的实体 已经在游戏地图中
+出口事件是一个触发器
+完成了

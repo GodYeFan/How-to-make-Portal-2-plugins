@@ -1,0 +1,57 @@
+﻿  CelesteMoveset.cpp
+c:\users\administrator\desktop\smsm\src\celestemoveset.hpp(39): warning C4305: “初始化”: 从“double”到“float”截断
+c:\users\administrator\desktop\smsm\src\celestemoveset.cpp(30): warning C4305: “初始化”: 从“double”到“float”截断
+c:\users\administrator\desktop\smsm\src\celestemoveset.cpp(53): warning C4305: “=”: 从“double”到“float”截断
+c:\users\administrator\desktop\smsm\src\celestemoveset.cpp(76): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+c:\users\administrator\desktop\smsm\src\celestemoveset.cpp(80): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+c:\users\administrator\desktop\smsm\src\celestemoveset.cpp(82): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+c:\users\administrator\desktop\smsm\src\celestemoveset.cpp(262): warning C4305: “参数”: 从“double”到“float”截断
+c:\users\administrator\desktop\smsm\src\celestemoveset.cpp(262): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+c:\users\administrator\desktop\smsm\src\celestemoveset.cpp(389): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\administrator\desktop\smsm\src\celestemoveset.cpp(430): warning C4305: “参数”: 从“double”到“float”截断
+c:\users\administrator\desktop\smsm\src\celestemoveset.cpp(503): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\administrator\desktop\smsm\src\celestemoveset.cpp(548): warning C4305: “=”: 从“double”到“float”截断
+  Hud.cpp
+c:\users\administrator\desktop\smsm\src\celestemoveset.hpp(39): warning C4305: “初始化”: 从“double”到“float”截断
+c:\users\administrator\desktop\smsm\src\hud\hud.cpp(23): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\users\administrator\desktop\smsm\src\hud\hud.cpp(24): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\users\administrator\desktop\smsm\src\hud\hud.cpp(67): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+c:\users\administrator\desktop\smsm\src\hud\hud.cpp(199): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+c:\users\administrator\desktop\smsm\src\hud\hud.cpp(225): warning C4305: “初始化”: 从“double”到“float”截断
+c:\users\administrator\desktop\smsm\src\hud\hud.cpp(227): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+c:\users\administrator\desktop\smsm\src\hud\hud.cpp(237): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\users\administrator\desktop\smsm\src\hud\hud.cpp(252): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+c:\users\administrator\desktop\smsm\src\hud\hud.cpp(253): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\users\administrator\desktop\smsm\src\hud\hud.cpp(254): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+c:\users\administrator\desktop\smsm\src\hud\hud.cpp(285): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+c:\users\administrator\desktop\smsm\src\hud\hud.cpp(292): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\users\administrator\desktop\smsm\src\hud\hud.cpp(294): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+  Server.cpp
+c:\users\administrator\desktop\smsm\src\celestemoveset.hpp(39): warning C4305: “初始化”: 从“double”到“float”截断
+  Surface.cpp
+  VGui.cpp
+c:\users\administrator\desktop\smsm\src\celestemoveset.hpp(39): warning C4305: “初始化”: 从“double”到“float”截断
+  VScript.cpp
+  SMSM.cpp
+  Cheats.cpp
+c:\users\administrator\desktop\smsm\src\cheats.cpp(76): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  Command.cpp
+  Game.cpp
+  Interface.cpp
+  Client.cpp
+  Console.cpp
+  Engine.cpp
+  Module.cpp
+  Tier1.cpp
+  Offsets.cpp
+  Plugin.cpp
+  Portal2.cpp
+  Memory.cpp
+  正在编译...
+  SDK.cpp
+  Variable.cpp
+    正在创建库 C:\Users\Administrator\Desktop\smsm\bin\smsm.lib 和对象 C:\Users\Administrator\Desktop\smsm\bin\smsm.exp
+  正在生成代码
+  All 966 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  chaos.vcxproj -> C:\Users\Administrator\Desktop\smsm\bin\smsm.dll

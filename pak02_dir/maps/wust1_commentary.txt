@@ -1,0 +1,18 @@
+"Entities"
+{
+	"entity"
+	{
+		"classname" "point_clientcommand"
+		"targetname" "mapcommand"
+		"origin" "0 0 0"
+		"angles" "0 90 0"
+		"precommands" ""
+		"postcommands" ""
+		"commentaryfile" ""
+		"viewtarget" ""
+		"viewposition" ""
+		"prevent_movement" 0
+		"speakers" ""
+		"synopsis" ""
+	}
+}

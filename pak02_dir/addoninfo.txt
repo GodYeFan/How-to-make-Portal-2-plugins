@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+     addonSteamAppID 620
+     addontitle "pak02_dir"
+     addonversion "V.1.0"
+     addontagline "本地图Wheatley's Unscientific Tests全部6关."
+     addonauthor "范天帝Ye Fan"
+     addonauthorSteamID "范天帝Ye Fan" 
+     addonURL0 ""
+     addonDescription "本地图Wheatley's Unscientific Tests全部6关" 
+}
